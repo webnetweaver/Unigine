@@ -1,8 +1,10 @@
 # Ignore everything
 *
-# Don't ignore directories, so we can recurse into them
-!*/
-# Don't ignore .gitignore and *.foo files
+
+!BasicAnimation.cs
+!CharacterAnimation.cs
+!tracker_wrapper.usc
+!Tracker.cs
+!README.md
+!LICENSE
 !.gitignore
-!/data/**/
-!/source/**/
