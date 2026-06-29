@@ -6,7 +6,7 @@ This is a publically available collection of Unigine scripts for personal and co
 
 The C# scripts in this repository are intended to be copied and used as source code for Unigine node components.  Currently there are component scripts supporting Skinned Mesh animations, and scripts adding support for playback of Tracker animations.
 
-BasicAnimation.cs and CharacterAnimation.cs can be used as node components providing a simple interface for state management of Skinned Mesh animations.
+BasicAnimation.cs and CharacterAnimation.cs are intended to be used as components on an ObjectMeshSkinned node providing an accessible interface for state management of mesh bone animations.
 
 Tracker.cs can be used as a component on a dummy node providing an interface for playback of animations created with the Tracker tool.  Additionally, tracker_wrapper.usc is a required UnigineScript which provides the "glue" required for Tracker.cs.  In order to use Tracker.cs to play back Tracker animations, use tracker_wrapper.usc as the world in each world tracker animations are to be played.
 
