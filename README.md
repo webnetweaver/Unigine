@@ -1,6 +1,6 @@
 # Unigine
 
-This is a publically available collection of Unigine scripts for personal and commercial use.
+This is a MIT licensed publically available collection of Unigine scripts for personal and commercial use.
 
 ## Description
 
